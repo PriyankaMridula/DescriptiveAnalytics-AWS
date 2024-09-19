@@ -25,14 +25,18 @@ o	AWS Glue DataBrew will be used to clean the dataset, addressing any inconsiste
 
 3.	Descriptive Statistics:
 o	Amazon Athena will be employed to query the dataset stored in S3 and calculate key metrics, including the percentage of rental units with outstanding issues in each neighborhood and the total number of issues and rental units.
-4.	Data Visualization:
+![image](https://github.com/user-attachments/assets/bcfb0522-58bc-447a-ad37-aa536455c8cd)
+
+5.	Data Visualization:
 o	AWS QuickSight will be utilized to create visualizations that illustrate the findings:
 	Bar charts to compare the percentage of rental units with outstanding issues between neighborhoods.
 	Heatmaps to show the concentration of issues within each neighborhood.
 	Line graphs to track trends in outstanding issues over time.
-5.	Insights and Findings:
+![image](https://github.com/user-attachments/assets/4f856378-79fa-41e7-80a6-d6110c04f826)
+
+7.	Insights and Findings:
 o	The analysis will uncover which neighborhood has a higher percentage of rental units with outstanding issues and identify specific areas or streets with more significant problems.
-6.	Recommendations:
+8.	Recommendations:
 o	Based on the insights, recommendations will be provided to improve property management practices in neighborhoods with higher percentages of outstanding issues.
 o	AWS CloudWatch Dashboards will be set up for real-time monitoring of rental issues, enabling proactive management.
 
