@@ -21,20 +21,24 @@ Methodology:
 1.	Data Collection and Preparation:
 o	The dataset will be securely stored in Amazon S3 buckets, with data organized by neighborhood (Downtown and Grandview-Woodland).
 o	AWS Glue DataBrew will be used to clean the dataset, addressing any inconsistencies, missing values, or duplicates to ensure data quality.
-2.	Descriptive Statistics:
+![image](https://github.com/user-attachments/assets/ce21810e-03d5-4f1d-ab45-367628c0883c)
+
+3.	Descriptive Statistics:
 o	Amazon Athena will be employed to query the dataset stored in S3 and calculate key metrics, including the percentage of rental units with outstanding issues in each neighborhood and the total number of issues and rental units.
-3.	Data Visualization:
+4.	Data Visualization:
 o	AWS QuickSight will be utilized to create visualizations that illustrate the findings:
 	Bar charts to compare the percentage of rental units with outstanding issues between neighborhoods.
 	Heatmaps to show the concentration of issues within each neighborhood.
 	Line graphs to track trends in outstanding issues over time.
-4.	Insights and Findings:
+5.	Insights and Findings:
 o	The analysis will uncover which neighborhood has a higher percentage of rental units with outstanding issues and identify specific areas or streets with more significant problems.
-5.	Recommendations:
+6.	Recommendations:
 o	Based on the insights, recommendations will be provided to improve property management practices in neighborhoods with higher percentages of outstanding issues.
 o	AWS CloudWatch Dashboards will be set up for real-time monitoring of rental issues, enabling proactive management.
 
 Tools and Technologies:
+![image](https://github.com/user-attachments/assets/8fc04335-1ba0-4c5f-b446-e88691b7dc22)
+
 
 •	Amazon S3 for secure data storage.
 •	AWS Glue DataBrew for data cleaning and preparation.
