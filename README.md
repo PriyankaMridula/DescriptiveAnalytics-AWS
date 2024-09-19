@@ -1,6 +1,4 @@
 # DescriptiveAnalytics-AWS
-This project analyzes rental issues in Vancouver's Grandview-Woodland and Downtown neighborhoods to compare property management effectiveness using AWS tools for data analysis and visualization.
-
 Project Description: Descriptive Analysis of Rental Issues in Vancouver
 Project Title: Understanding Rental Issues in Vancouver's Grandview-Woodland and Downtown Neighborhoods
 
